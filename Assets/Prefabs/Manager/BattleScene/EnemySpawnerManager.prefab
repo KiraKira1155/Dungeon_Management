@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7923420061749568045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8029324176681171215}
+  - component: {fileID: 7608982797463668382}
+  m_Layer: 0
+  m_Name: EnemySpawnerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8029324176681171215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923420061749568045}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7608982797463668382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923420061749568045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ee51da9d8deeb44fbd88494a55ae71e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyParentTransform: {fileID: 0}
+  enemyStageSettings:
+  - stageNasme: tutrial
+    _enemyMaxLength: 300
+    _spawnOder:
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 2
+      oder: {fileID: 11400000, guid: ca68a829c2579bb4e9de4e815c9eb782, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 3
+      oder: {fileID: 11400000, guid: d7bc71439c7b56b4c952b092cf2fed56, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 8
+      oder: {fileID: 11400000, guid: f927e622c35c2114398f2972a74f9267, type: 2}
+    - MinSpawnRange: 0
+      MaxSpawnRange: 0
+      _enemyID: 10
+      oder: {fileID: 11400000, guid: b18a329d87ab66c4a9a5df41280fe8e7, type: 2}
+    _enemyPoolSettings:
+    - _enemyPrefab: {fileID: 6923074375982747702, guid: e0cb6f4b603cc3b48828c22c8f64725e, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 6923074375982747702, guid: 2c7eb4047cc01134c9f820b25fada8ba, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 3901087322538888524, guid: e46541e4fa3e359438ac6c0706fa5f0a, type: 3}
+      _poolSize: 200
+    - _enemyPrefab: {fileID: 7444640051583446878, guid: a62f69a6637c30a438fa84b88cec142c, type: 3}
+      _poolSize: 200
+    - _enemyPrefab: {fileID: 5484264844956643392, guid: d68755b1919d44d4abd5dfe37c13236c, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 5820568691894125050, guid: d9b70ec3637a4c04b837e4d174892cff, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 3240399438670235013, guid: 1c873b45733e68943b99f66d1db7a70c, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 709560941696833060, guid: 0aa6b29f94172634cbc107d99712eaf8, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 1434978370811701784, guid: ad2205d76953f0b4eabf08877690e822, type: 3}
+      _poolSize: 1
+    - _enemyPrefab: {fileID: 1434978370811701784, guid: 1fbe3c62239176c49af218eac4a59c29, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 1997966600926028394, guid: 395aeccb4aaad854aa436d226903bbb1, type: 3}
+      _poolSize: 1
+  - stageNasme: stage 1
+    _enemyMaxLength: 500
+    _spawnOder:
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 2
+      oder: {fileID: 11400000, guid: c84e773f1455f8f46a8920a1997e7067, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 3
+      oder: {fileID: 11400000, guid: 1d5f8bcc19531be45826d3c49734869e, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 4
+      oder: {fileID: 11400000, guid: f20548b087ca72745a65fd7b8831a30f, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 5
+      oder: {fileID: 11400000, guid: 462a11f97f254ec4dafa6070cbf8d594, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 6
+      oder: {fileID: 11400000, guid: 30a05d258622b374681fd15b87f6e91c, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 7
+      oder: {fileID: 11400000, guid: 69a59d8a4fb24f443b978fb11a4f396b, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 8
+      oder: {fileID: 11400000, guid: f8ddc881eb8de40459a3646a23d71e5f, type: 2}
+    - MinSpawnRange: 7
+      MaxSpawnRange: 10
+      _enemyID: 9
+      oder: {fileID: 11400000, guid: 906fbef13b7f1db4fa75106c672934d9, type: 2}
+    - MinSpawnRange: 0
+      MaxSpawnRange: 0
+      _enemyID: 10
+      oder: {fileID: 11400000, guid: 1005a987ca7eaf444a2158ce1be7ba0d, type: 2}
+    _enemyPoolSettings:
+    - _enemyPrefab: {fileID: 6923074375982747702, guid: e0cb6f4b603cc3b48828c22c8f64725e, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 6923074375982747702, guid: 2c7eb4047cc01134c9f820b25fada8ba, type: 3}
+      _poolSize: 0
+    - _enemyPrefab: {fileID: 3901087322538888524, guid: e46541e4fa3e359438ac6c0706fa5f0a, type: 3}
+      _poolSize: 300
+    - _enemyPrefab: {fileID: 7444640051583446878, guid: a62f69a6637c30a438fa84b88cec142c, type: 3}
+      _poolSize: 300
+    - _enemyPrefab: {fileID: 5484264844956643392, guid: d68755b1919d44d4abd5dfe37c13236c, type: 3}
+      _poolSize: 300
+    - _enemyPrefab: {fileID: 5820568691894125050, guid: d9b70ec3637a4c04b837e4d174892cff, type: 3}
+      _poolSize: 300
+    - _enemyPrefab: {fileID: 3240399438670235013, guid: 1c873b45733e68943b99f66d1db7a70c, type: 3}
+      _poolSize: 300
+    - _enemyPrefab: {fileID: 709560941696833060, guid: 0aa6b29f94172634cbc107d99712eaf8, type: 3}
+      _poolSize: 300
+    - _enemyPrefab: {fileID: 1434978370811701784, guid: ad2205d76953f0b4eabf08877690e822, type: 3}
+      _poolSize: 1
+    - _enemyPrefab: {fileID: 1434978370811701784, guid: 1fbe3c62239176c49af218eac4a59c29, type: 3}
+      _poolSize: 1
+    - _enemyPrefab: {fileID: 1997966600926028394, guid: 395aeccb4aaad854aa436d226903bbb1, type: 3}
+      _poolSize: 1
+  wallObj: {fileID: 5825687726322879065, guid: 25043bad132c13146bfaf1a41b76269f, type: 3}

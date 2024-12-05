@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6787dbe88be26943adadf629d2330be, type: 3}
+  m_Name: LandMine
+  m_EditorClassIdentifier: 
+  subWeaponID: 8
+  _attack: 150
+  _attackMagnification:
+  - 1
+  - 1.5
+  - 2
+  - 2.5
+  _detectionSize: {x: 2, y: 2}
+  _attackRange: 2
+  _attackRangeMagnification:
+  - 1
+  - 1.5
+  - 2
+  - 2
+  _attackInterval: 5
+  _bulletSpeed: 0
+  _targetAmount: 00000000000000000000000000000000
+  _nextAttackInterval: 0
+  _attackEffect: {fileID: 8423000147876579150, guid: 36d99475b8eb7824e8bf7a25650217e8, type: 3}
+  _attackAnimator: {fileID: 0}
+  _attackEffectMaxLevel: {fileID: 0}
+  _attackObj: {fileID: 6478664824514052388, guid: 3007d84988cfdbb48988a63a3e122699, type: 3}
+  _attackObjMaxLevel: {fileID: 0}

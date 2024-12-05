@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6787dbe88be26943adadf629d2330be, type: 3}
+  m_Name: Funnel
+  m_EditorClassIdentifier: 
+  subWeaponID: 7
+  _attack: 20
+  _attackMagnification:
+  - 1
+  - 1.5
+  - 2
+  - 3
+  _detectionSize: {x: 9, y: 16}
+  _attackRange: 1
+  _attackRangeMagnification:
+  - 1
+  - 1
+  - 1
+  - 2
+  _attackInterval: 5
+  _bulletSpeed: 0
+  _targetAmount: 01000000020000000300000005000000
+  _nextAttackInterval: 0.1
+  _attackEffect: {fileID: 0}
+  _attackEffectMaxLevel: {fileID: 0}
+  _attackObj: {fileID: 1411858347042426, guid: cdf17be89501f4640a7bf79c310066b3, type: 3}
+  _attackObjMaxLevel: {fileID: 0}

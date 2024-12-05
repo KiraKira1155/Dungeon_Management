@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6787dbe88be26943adadf629d2330be, type: 3}
+  m_Name: AttackField
+  m_EditorClassIdentifier: 
+  subWeaponID: 1
+  _attack: 50
+  _attackMagnification:
+  - 1
+  - 2
+  - 3
+  - 3.5
+  _detectionSize: {x: 3, y: 3}
+  _attackRange: 1
+  _attackRangeMagnification:
+  - 1
+  - 1.5
+  - 2
+  - 2
+  _attackInterval: 1
+  _bulletSpeed: 0
+  _targetAmount: 
+  _nextAttackInterval: 1
+  _attackEffect: {fileID: 7451623265283187458, guid: 46deae9abc423c34bbc9aba05b6d4628, type: 3}
+  _attackAnimator: {fileID: 0}
+  _attackEffectMaxLevel: {fileID: 0}
+  _attackObj: {fileID: 0}
+  _attackObjMaxLevel: {fileID: 0}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6787dbe88be26943adadf629d2330be, type: 3}
+  m_Name: GravitationalField
+  m_EditorClassIdentifier: 
+  subWeaponID: 10
+  _attack: 50
+  _attackMagnification:
+  - 1
+  - 1.5
+  - 2
+  - 2
+  _detectionSize: {x: 9, y: 16}
+  _attackRange: 2
+  _attackRangeMagnification:
+  - 2
+  - 2.6
+  - 3
+  - 3
+  _attackInterval: 5
+  _bulletSpeed: 0
+  _targetAmount: 00000000000000000000000000000000
+  _nextAttackInterval: 0.5
+  _attackEffect: {fileID: 5488512800074345544, guid: 9b5717009b11ee94aa6720fd2f3565c4, type: 3}
+  _attackAnimator: {fileID: 0}
+  _attackEffectMaxLevel: {fileID: 0}
+  _attackObj: {fileID: 0}
+  _attackObjMaxLevel: {fileID: 0}

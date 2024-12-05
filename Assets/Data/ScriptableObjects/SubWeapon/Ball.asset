@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6787dbe88be26943adadf629d2330be, type: 3}
+  m_Name: Ball
+  m_EditorClassIdentifier: 
+  subWeaponID: 5
+  _attack: 100
+  _attackMagnification:
+  - 1
+  - 1.25
+  - 1.5
+  - 2
+  _detectionSize: {x: 10, y: 18}
+  _attackRange: 0.6
+  _attackRangeMagnification:
+  - 1
+  - 1
+  - 1
+  - 1
+  _attackInterval: 0
+  _bulletSpeed: 10
+  _targetAmount: 02000000030000000400000008000000
+  _nextAttackInterval: 0
+  _attackEffect: {fileID: 0}
+  _attackAnimator: {fileID: 0}
+  _attackEffectMaxLevel: {fileID: 0}
+  _attackObj: {fileID: 3460816881435368439, guid: e6152f970f178ce44b54c3cec6e2e703, type: 3}
+  _attackObjMaxLevel: {fileID: 0}

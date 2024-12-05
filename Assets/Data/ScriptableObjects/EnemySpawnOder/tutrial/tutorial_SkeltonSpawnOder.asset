@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6d02237dcac744d80222859e333eb7, type: 3}
+  m_Name: tutorial_SkeltonSpawnOder
+  m_EditorClassIdentifier: 
+  _spawnTime: 14000000170000001a0000001e0000002100000025000000280000002d0000003000000032000000
+  _spawnAmount: 14000000190000001e00000028000000280000003200000028000000280000003c00000032000000

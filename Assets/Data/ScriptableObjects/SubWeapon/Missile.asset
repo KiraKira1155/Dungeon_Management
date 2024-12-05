@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6787dbe88be26943adadf629d2330be, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  subWeaponID: 4
+  _attack: 40
+  _attackMagnification:
+  - 1
+  - 2
+  - 3
+  - 10
+  _detectionSize: {x: 10, y: 17}
+  _attackRange: 1.3
+  _attackRangeMagnification:
+  - 1
+  - 1
+  - 1
+  - 2.5
+  _attackInterval: 3
+  _bulletSpeed: 4
+  _targetAmount: 02000000030000000500000002000000
+  _nextAttackInterval: 0.5
+  _attackEffect: {fileID: 8164293955989033360, guid: b8ac3dbe35e1c7c44b9c2c86c97f28be, type: 3}
+  _attackAnimator: {fileID: 0}
+  _attackEffectMaxLevel: {fileID: 0}
+  _attackObj: {fileID: 2224008493442492315, guid: e0ff95d3c4ff42348bb186858c4dde99, type: 3}
+  _attackObjMaxLevel: {fileID: 0}
